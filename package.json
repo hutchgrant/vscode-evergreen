@@ -1,0 +1,29 @@
+{
+  "name": "vscode-evergreen",
+  "displayName": "Evergreen code snippets",
+  "description": "Code snippets for Evergreen",
+  "version": "0.0.1",
+  "publisher": "hutchdev",
+  "icon": "images/evergreen.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutchgrant/vscode-evergreen"
+  },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
