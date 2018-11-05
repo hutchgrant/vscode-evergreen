@@ -2,7 +2,7 @@
   "name": "vscode-evergreen",
   "displayName": "Evergreen code snippets",
   "description": "Code snippets for Evergreen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "hutchdev",
   "icon": "images/evergreen.png",
   "galleryBanner": {
