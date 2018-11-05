@@ -1,7 +1,7 @@
 {
   "evergreenClassComponent": {
     "prefix": "evc",
-    "body": "import { html, LitElement } from 'LitElement';\n\nclass ${1:${TM_FILENAME_BASE}} extends LitElement {\n\trender() {\n\t\treturn html`\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t`;\n\t}\n}\n\ncustomElements.define('my-${1:${TM_FILENAME_BASE}}', ${1:${TM_FILENAME_BASE}});",
+    "body": "import { html, LitElement } from '@polymer/lit-element';\n\nclass ${1:${TM_FILENAME_BASE}} extends LitElement {\n\trender() {\n\t\treturn html`\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t`;\n\t}\n}\n\ncustomElements.define('my-${1:${TM_FILENAME_BASE}}', ${1:${TM_FILENAME_BASE}});",
     "description": "Creates a evergreen component class with LitElement system"
   }
 }
